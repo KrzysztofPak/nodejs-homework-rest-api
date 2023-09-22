@@ -1,8 +1,12 @@
-const { Contact } = require("../../models/contact");
+const contactsOperations = require("../../models/contacts");
+const createError = require("http-errors");
 
 const updateById = async (req, res, next) => {
   const { id } = req.params;
-  const result = await Contact.findByIdAndUpdate(id, req.body, { new: true });
+  const result = await contactsOperations.updateContact(id, req.body);
+  if (!result) {
+    throw createError(404, `Product with id=${id} not found`);
+  }
   res.json({
     status: "success",
     code: 200,
