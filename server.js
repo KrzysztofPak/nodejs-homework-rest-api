@@ -1,24 +1,17 @@
-import { app } from './app.js';
-import mongoose from 'mongoose';
-import { config } from 'dotenv';
+const mongoose = require("mongoose");
 
-config();
+const app = require("./app");
 
-const uriDb = process.env.DB_HOST;
+const { DB_HOST, PORT = 3000 } = process.env;
 
-const startServer = async () => {
-  try {
-    const connection = await mongoose.connect(uriDb);
-    console.log('Database connection successful');
-
-    app.listen(3000, () => {
-      console.log('Server running. Use our API on port: 3000');
-    });
-  } catch (error) {
-    console.error('Cannot connect to Mongo Database');
-    console.error(error);
+mongoose
+  .connect(DB_HOST)
+  .then(() => {
+    app.listen(PORT);
+    console.log("Database connection successful");
+    console.log(DB_HOST);
+  })
+  .catch((error) => {
+    console.log(error.message);
     process.exit(1);
-  }
-};
-
-startServer();
+  });
