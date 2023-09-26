@@ -1,4 +1,9 @@
 const validation = require("./validation");
-const ctrlWrapper = require("./ctrlWrapper");
+const isValidId = require("./isValidId");
+const favoriteValidation = require("./favoriteValidation");
 
-module.exports = { validation, ctrlWrapper };
+module.exports = {
+  validation,
+  isValidId,
+  favoriteValidation,
+};

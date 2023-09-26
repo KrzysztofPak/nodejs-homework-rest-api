@@ -1,98 +1,62 @@
 [
   {
-    "id": "1",
     "name": "Allen Raymond",
     "email": "nulla.ante@vestibul.co.uk",
-    "phone": "(992) 914-3792"
+    "phone": "(992) 914-3792",
+    "favorite": false
   },
   {
-    "id": "2",
     "name": "Chaim Lewis",
     "email": "dui.in@egetlacus.ca",
-    "phone": "(294) 840-6685"
+    "phone": "(294) 840-6685",
+    "favorite": true
   },
   {
-    "id": "3",
     "name": "Kennedy Lane",
     "email": "mattis.Cras@nonenimMauris.net",
-    "phone": "(542) 451-7038"
+    "phone": "(542) 451-7038",
+    "favorite": false
   },
   {
-    "id": "4",
     "name": "Wylie Pope",
     "email": "est@utquamvel.net",
-    "phone": "(692) 802-2949"
+    "phone": "(692) 802-2949",
+    "favorite": true
   },
   {
-    "id": "5",
     "name": "Cyrus Jackson",
     "email": "nibh@semsempererat.com",
-    "phone": "(501) 472-5218"
+    "phone": "(501) 472-5218",
+    "favorite": true
   },
   {
-    "id": "6",
     "name": "Abbot Franks",
     "email": "scelerisque@magnis.org",
-    "phone": "(186) 568-3720"
+    "phone": "(186) 568-3720",
+    "favorite": true
   },
   {
-    "id": "7",
     "name": "Reuben Henry",
     "email": "pharetra.ut@dictum.co.uk",
-    "phone": "(715) 598-5792"
+    "phone": "(715) 598-5792",
+    "favorite": true
   },
   {
-    "id": "8",
     "name": "Simon Morton",
     "email": "dui.Fusce.diam@Donec.com",
-    "phone": "(233) 738-2360"
+    "phone": "(233) 738-2360",
+    "favorite": true
   },
   {
-    "id": "9",
     "name": "Thomas Lucas",
     "email": "nec@Nulla.com",
-    "phone": "(704) 398-7993"
+    "phone": "(704) 398-7993",
+    "favorite": false
   },
   {
-    "id": "10",
     "name": "Alec Howard",
     "email": "Donec.elementum@scelerisquescelerisquedui.net",
-    "phone": "(748) 206-2688"
-  },
-  {
-    "id": "25865321-6923-40ff-843b-784813e7b08d",
-    "name": "Valaaa",
-    "email": "vabn@mail.com",
-    "phone": "(294) 840-6690"
-  },
-  {
-    "id": "64d5743a-8fff-47f1-8f80-0bde5a28eaa8",
-    "name": "Natala",
-    "email": "n@mail.com",
-    "phone": "(294) 840-1111"
-  },
-  {
-    "id": "45594d96-b068-400e-ac72-a2fa586ae81a",
-    "name": "Nadia",
-    "email": "nd@mail.com",
-    "phone": "(294) 840-1332"
-  },
-  {
-    "id": "e14fc1ea-9489-4794-bd7a-55f0617b62f0",
-    "name": "Tania",
-    "email": "nd@mail.com",
-    "phone": "(294) 840-1332"
-  },
-  {
-    "id": "2afbe45b-6b3e-4506-9530-0b1bfe3d10a9",
-    "name": "julia",
-    "email": "ju@mail.com",
-    "phone": "(294) 840-1342"
-  },
-  {
-    "id": "e8cb2526-c504-45ae-987b-bbaac3039789",
-    "name": "qsssssd",
-    "email": "qs@mail.com",
-    "phone": "(294) 840-1542"
+    "phone": "(748) 206-2688",
+    "favorite": true
   }
 ]

@@ -32,3 +32,11 @@
 - `npm run start:dev` &mdash; старт сервера в режимі розробки (development)
 - `npm run lint` &mdash; запустити виконання перевірки коду з eslint, необхідно виконувати перед кожним PR та виправляти всі помилки лінтера
 - `npm lint:fix` &mdash; та ж перевірка лінтера, але з автоматичними виправленнями простих помилок
+
+<!-- password mongodb
+Hpi8V2xwFHogpt7r
+ -->
+ <!-- deOSuMDIopcf7EnB -->
+
+<!-- DB_HOST =
+"mongodb+srv://Natala:deOSuMDIopcf7EnB@cluster0.mlqxyxm.mongodb.net/db-contacts?retryWrites=true&w=majority" -->
